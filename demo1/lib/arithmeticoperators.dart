@@ -16,4 +16,17 @@ void main(){
   print('$a -= $b = ${a-=b}');
   print('$a *= $b = ${a*=b}');
   print('$a /= $b = ${a/=b}');
+
+  //unary operators
+  var x =10;
+  print('x = ${x++}');
+  print('$x');
+  print('x = ${x--}');
+  print('$x');
+
+  print('x = ${--x}');
+  print('$x');
+
+  print('x = ${++x}');
+  print('$x');
 }
