@@ -4,8 +4,9 @@ class StudentDetails{
   late int age;
   late String email;
   //static variables depends on class
-  static String course = "flutter";
-  static timing(){
+  static String course = "flutter";   //static variables
+  static timing(){   //static function --- can able to access static variables(outside the static function) -
+    // -inside the static function
     print("Class timing is 11AM");
   }
   //user defined default function
@@ -26,7 +27,8 @@ void main(){
   print("Student1 email = ${stud1.email = "Nidhin@gmail.com"}");
   print("Student1 course = ${StudentDetails.course}");
   stud1.institute();
-  StudentDetails.timing();
+  StudentDetails.timing();  //to call static variables/function (classname.variable /function name)  no need to -
+  // -create object
   stud1.hobby("photography");
   print('===============================');
   StudentDetails stud2 = StudentDetails();
