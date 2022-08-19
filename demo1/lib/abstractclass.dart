@@ -8,7 +8,6 @@ abstract class A{  //abstract class
 class ChildA extends A{
   @override
   void show() {
-    // TODO: implement show
     print('inside show of child');
   }
 
