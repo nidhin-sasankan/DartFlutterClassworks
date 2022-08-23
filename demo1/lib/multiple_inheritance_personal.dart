@@ -1,16 +1,13 @@
 class Sslc{
   sslcdetails(String year, String school){
-
   }
 }
 class Plustwo{
   plustwodetails(String year, String school){
-
   }
 }
 class HigherDegree{
   degreedetails(String year, String collegename){
-
   }
 }
 
@@ -46,5 +43,4 @@ void main(){
   obj.sslcdetails('2000', 'Bss Gurukulam');
   obj.plustwodetails('2003', 'CFD VHSS');
   obj.degreedetails('2020', 'SNR Sons');
-
 }
